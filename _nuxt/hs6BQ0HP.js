@@ -1,0 +1,1 @@
+import{q as t,s as u}from"./D49sIYT4.js";function i(o=.15){const e=t(null),r=t(!1);return u(()=>{if(!e.value)return;const s=new IntersectionObserver(([n])=>{n.isIntersecting&&(r.value=!0,s.unobserve(n.target))},{threshold:o});s.observe(e.value)}),{el:e,isVisible:r}}export{i as u};
